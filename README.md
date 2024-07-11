@@ -29,3 +29,22 @@ Para executar o projeto localmente, é necessário ter instalado:
 
    ```bash
    git clone https://github.com/MatthsDev/Conversor_de_Moeda.git
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+    cd conversor-de-moedas
+   
+3. Compile o projeto:
+
+   ```bash
+    javac -cp "src;lib/gson-2.10.1.jar" src/br/com/conversorMoedas/main/Main.java -d out/production/Conversor_de_Moedas
+
+4. Execute o programa:
+
+    ```bash
+     java -cp "out/production/Conversor_de_Moedas;lib/gson-2.10.1.jar" br.com.conversorMoedas.main.Main
+
+
+
+
